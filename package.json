@@ -1,0 +1,32 @@
+{
+  "name": "timezoneconverter",
+  "version": "1.0.0",
+  "description": "JavaScript time zone converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/haha54carol/timeZoneConverter.git"
+  },
+  "keywords": [
+    "timeZone",
+    "converter"
+  ],
+  "author": "Carol Ni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haha54carol/timeZoneConverter/issues"
+  },
+  "homepage": "https://github.com/haha54carol/timeZoneConverter#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0"
+  }
+}
