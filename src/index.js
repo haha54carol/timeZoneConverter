@@ -6,3 +6,4 @@ const tzConverter = (dateTime, originalTimeZone, targetTimeZone, outputFormat = 
     return moment(dateTimeStr).utcOffset(targetTimeZone).format(outputFormat)
 }
 
+export default tzConverter
