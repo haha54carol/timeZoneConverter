@@ -34,14 +34,9 @@ console.log(newDateTime) // '2018/10/11 06:00:00'
 ```
 
 | Arguments | Type | Example | isRequired | Format |
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 | originalDateTime | String | '2018/10/10' or '2018/10/10 18:00:00' | Required | YYYY/MM/DD HH:mm:ss |
 | originalTimeZone | Number | -4 | Required | -12 ~ 12 |
 | targetTimeZone | Number | 8 | Required | -12 ~ 12 |
 | outputFormat | String | 'YYYY/MM/DD HH:mm:ss' |  Optional | Default is YYYY-MM-DD HH:mm:ss |
 
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
