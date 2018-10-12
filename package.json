@@ -1,5 +1,5 @@
 {
-  "name": "timezoneconverter",
+  "name": "time-zone-converter",
   "version": "1.0.0",
   "description": "JavaScript time zone converter",
   "main": "index.js",
