@@ -8,17 +8,17 @@
 ```javascript
 
 # npm 
-npm install timeZoneConverter
+npm install time-zone-converter
 
 # yarn
-yarn add timeZoneConverter
+yarn add time-zone-converter
 
 ```
 
 ### Import
 ```javascript
 
-import timeZoneConverter from 'timeZoneConverter'
+import timeZoneConverter from 'time-zone-converter'
 
 ```
 #### Arguments
