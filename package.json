@@ -23,8 +23,7 @@
   "homepage": "https://github.com/haha54carol/timeZoneConverter#readme",
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
-    "moment": "^2.22.2",
-    "time-zone-converter": "^1.0.2"
+    "moment": "^2.22.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
