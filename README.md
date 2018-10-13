@@ -1,6 +1,5 @@
 # time-zone-converter
-[![Coverage Status](https://coveralls.io/repos/github/haha54carol/timeZoneConverter/badge.svg?branch=master)](https://coveralls.io/github/haha54carol/timeZoneConverter?branch=master)
-
+[![Build Status](https://travis-ci.com/haha54carol/timeZoneConverter.svg?branch=master)](https://travis-ci.com/haha54carol/timeZoneConverter)
 > Easiest way to convert your date time to specific time zone.
 
 ## How to Use?
