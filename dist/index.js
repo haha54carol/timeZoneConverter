@@ -10,8 +10,8 @@ var _moment = _interopRequireDefault(require("moment"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const timeZoneConverter = (dateTime, originalTimeZone, targetTimeZone, outputFormat = 'YYYY-MM-DD HH:mm:ss') => {
-  const dateTimeStr = dateTime.concat(originalTimeZone >= 0 ? '+' : '-').concat(('0' + Math.abs(originalTimeZone)).slice(-2));
-  return (0, _moment.default)(dateTimeStr, outputFormat).utcOffset(targetTimeZone).format(outputFormat);
+  const dateTimeStr = originalTimeZone > targetTimeZone ? (0, _moment.default)(dateTime, 'YYYY/MM/DD HH:mm:ss').subtract(originalTimeZone - targetTimeZone, 'h') : (0, _moment.default)(dateTime, 'YYYY/MM/DD HH:mm:ss').add(targetTimeZone - originalTimeZone, 'h');
+  return (0, _moment.default)(dateTimeStr, outputFormat).format(outputFormat);
 };
 
 var _default = timeZoneConverter;

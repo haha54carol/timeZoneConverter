@@ -1,6 +1,6 @@
 {
   "name": "time-zone-converter",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "JavaScript time zone converter",
   "main": "dist/index.js",
   "scripts": {
