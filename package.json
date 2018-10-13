@@ -1,8 +1,8 @@
 {
   "name": "time-zone-converter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JavaScript time zone converter",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest",
     "build": "./node_modules/.bin/babel src --out-dir dist"
@@ -23,7 +23,8 @@
   "homepage": "https://github.com/haha54carol/timeZoneConverter#readme",
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
-    "moment": "^2.22.2"
+    "moment": "^2.22.2",
+    "time-zone-converter": "^1.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
