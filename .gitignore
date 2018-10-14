@@ -25,3 +25,6 @@ addJSON.json
 /updateOutrightMarket.json
 /delOutright.json
 /delOutrightSelection.json
+
+# code coverage
+coverage/
